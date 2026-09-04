@@ -15,6 +15,19 @@ Strava.
 
 ---
 
+## 📖 Start with the walkthrough
+
+### **→ [How I built my own AI running coach](https://agentsroom.dev/blog/build-your-own-ai-running-coach)**
+
+**Read that first.** It is the full story with screenshots: how the pieces
+connect, how the trigger is configured, what the coach actually writes back, and
+every step in order — the parts that are hard to convey in a repository.
+
+This repository is the **template you clone once the article has convinced you**.
+It works on its own, but the article is where the setup is actually explained.
+
+---
+
 ## What actually happens
 
 You run. Your watch syncs to Strava. Then, without you touching anything:
@@ -216,6 +229,13 @@ sessions — a session is never judged alone.
 
 ## Set it up
 
+> 📖 **The illustrated version of everything below — with screenshots of the
+> AgentsRoom trigger editor, the agent running, and the coach's comment on a real
+> activity — is in the article:
+> [How I built my own AI running coach](https://agentsroom.dev/blog/build-your-own-ai-running-coach).**
+> What follows is the condensed checklist. If a step is unclear, the article
+> shows it.
+
 ### 1. Clone and make it yours
 
 ```bash
@@ -353,12 +373,21 @@ This template coaches a 10 km runner. Nothing about it is specific to that:
 
 | | |
 |---|---|
-| [`CLAUDE.md`](CLAUDE.md) | The coach's operating manual — **start here** |
+| 📖 **[The walkthrough](https://agentsroom.dev/blog/build-your-own-ai-running-coach)** | **The full story, with screenshots — read this first** |
+| [`CLAUDE.md`](CLAUDE.md) | The coach's operating manual — start here in the repo |
 | [`docs/architecture.md`](docs/architecture.md) | How the pieces fit, and why |
 | [`docs/trigger-prompt.md`](docs/trigger-prompt.md) | The full trigger prompt, commented |
 | [`docs/coach-persona.md`](docs/coach-persona.md) | The coaching system prompt |
 | [`scripts/README.md`](scripts/README.md) | Strava setup, OAuth, the automated job |
 | [`journal/README.md`](journal/README.md) | How a session sheet is filled |
+
+---
+
+## Build yours
+
+### **→ [How I built my own AI running coach](https://agentsroom.dev/blog/build-your-own-ai-running-coach)**
+
+The step-by-step walkthrough, with screenshots. Then come back here and clone.
 
 ---
 
