@@ -1,0 +1,23 @@
+# Fins de ligne : LF partout, sur toutes les machines.
+#
+# Sans ce fichier, le dépôt se comporte différemment selon la configuration
+# locale de git : avec `core.autocrlf=input` (le Mac de JB) un CSV écrit en CRLF
+# paraît propre, alors que le même fichier octet pour octet paraît modifié sur le
+# serveur Rocky où l'option n'est pas définie. Résultat : un faux diff de 56
+# lignes à chaque synchronisation, et un `git pull --rebase` qui casse.
+
+* text=auto eol=lf
+
+*.md   text eol=lf
+*.csv  text eol=lf
+*.json text eol=lf
+*.py   text eol=lf
+*.sh   text eol=lf
+*.yml  text eol=lf
+
+# Binaires : jamais touchés
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.fit  binary
+*.gz   binary

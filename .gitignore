@@ -1,0 +1,38 @@
+# --- AgentsRoom (the app's own plumbing, not project source) ----------------
+.mcp.json
+.agentsroom/
+
+# --- Raw Strava data -------------------------------------------------------
+# The official export weighs ~500 MB (.fit traces + media): it has no business
+# in Git. Only the derived files (data/derived/*) are versioned.
+data/raw/
+
+# Raw Strava API responses dropped by scripts/strava_sync.py: useful to
+# re-check an import, no reason to be versioned.
+data/inbox/
+
+# Execution log of scripts/strava_publish.py
+logs/
+
+# CSV aggregate: derived from data/derived/activities/*.json, so regenerable.
+# Left unversioned to stay conflict-free across two machines (home / work):
+# per-activity files merge cleanly, a shared CSV diverges line by line.
+data/derived/activities-api.csv
+
+# --- Secrets ---------------------------------------------------------------
+# Strava API credentials. NEVER versioned: the client secret grants read access
+# to your entire private history. Template: .env.example
+.env
+.env.local
+
+# --- System / editors ------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
