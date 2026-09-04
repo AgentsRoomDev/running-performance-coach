@@ -1,5 +1,7 @@
 # Training log
 
+> 📖 **New here?** Start with the walkthrough — [How I built my own AI running coach](https://agentsroom.dev/blog/build-your-own-ai-running-coach)
+
 **This folder is the project's source of truth.** The plan says what was
 intended; the log says what was done. When they contradict each other, the log
 wins.

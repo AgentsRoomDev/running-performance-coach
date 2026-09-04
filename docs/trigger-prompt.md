@@ -1,5 +1,7 @@
 # The trigger prompt
 
+> 📖 **New here?** Start with the walkthrough — [How I built my own AI running coach](https://agentsroom.dev/blog/build-your-own-ai-running-coach)
+
 This is the message handed to the coach agent when a session lands. Paste it into
 the **Prompt** field of your AgentsRoom webhook trigger.
 

@@ -1,5 +1,7 @@
 # Scripts
 
+> 📖 **New here?** Start with the walkthrough — [How I built my own AI running coach](https://agentsroom.dev/blog/build-your-own-ai-running-coach)
+
 Pure stdlib Python — **no `pip install`, no virtualenv, no dependency**. That is
 a hard constraint, not an accident: these scripts run unattended on a small
 server where `pip install` is blocked by PEP 668, and a dependency that breaks at

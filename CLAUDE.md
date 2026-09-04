@@ -1,5 +1,7 @@
 # CLAUDE.md — The coach's operating manual
 
+> 📖 **New here?** Start with the walkthrough — [How I built my own AI running coach](https://agentsroom.dev/blog/build-your-own-ai-running-coach)
+
 > This file is the contract between the athlete and the agent that plays the
 > coach. It is read **at the start of every session**. Everything written here
 > overrides the agent's default habits.

@@ -1,5 +1,7 @@
 # The coach persona
 
+> 📖 **New here?** Start with the walkthrough — [How I built my own AI running coach](https://agentsroom.dev/blog/build-your-own-ai-running-coach)
+
 This is the **system prompt** attached to the agent in AgentsRoom (Edit agent →
 Custom system prompt), and to the coach trigger.
 

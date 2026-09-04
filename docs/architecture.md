@@ -1,5 +1,7 @@
 # Architecture
 
+> 📖 **New here?** Start with the walkthrough — [How I built my own AI running coach](https://agentsroom.dev/blog/build-your-own-ai-running-coach)
+
 How the pieces fit, and — more usefully — **why they fit that way**. Most of the
 decisions below exist because a simpler version was tried first and broke.
 
